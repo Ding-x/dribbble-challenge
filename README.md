@@ -13,6 +13,12 @@ Then you can view the project on http://localhost:3000
 3. As everything is a component in React, I prefer to use Styled-component rather than SCSS. To some degree, they are both better alternative solutions of CSS.
 4. A nice codebase should not have any unnecessary comments and documentation if it has proper namings and well organized.
 
+# Solutions
+## Divide the page into components
+The page is just simplely to show a bunch of shots. Each ShotComponent is composed by MediaComponent(image or video), TitleComponent, AuthorComponent and CommentsAndLiksComponents. 
+## Make the page responsive
+With the help of flex and media query in CSS, the page has different organizations depending on the page resolution.
+
 # Questions from Stretch goals
 ## What could you do to optimize performance on this page? 
  As there are a lot of images on this page, it may slow down the website. To reduce the image size is to use the HTML responsive images, which can adjust image size based on user display properties.
